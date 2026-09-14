@@ -72,6 +72,7 @@
     # K3 always thinks; these split reasoning and tool calls out of the answer
     --reasoning-parser: kimi_k3
     --tool-call-parser: kimi_k3
+    --language-model-only: true
 
 # DSpark reuses the anchors above so the shared recipe has one definition. It is
 # reported separately in the issue because it also yields an accept-length
